@@ -1,0 +1,14 @@
+package test;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class GuGuController {
+	
+	@RequestMapping(value = "/gugu.do")
+	public String printgugu(){
+		System.out.println("SDfsdf");
+		return "gugu/gugu";
+	}
+}

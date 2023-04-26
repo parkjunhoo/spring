@@ -1,0 +1,10 @@
+package main;
+
+@Controller
+public class MemberController {
+
+	@RequestMapping("/signup")
+	public String index() {
+		return "main/login";
+	}
+}

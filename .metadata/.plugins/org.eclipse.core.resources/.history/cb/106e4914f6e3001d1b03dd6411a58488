@@ -1,0 +1,10 @@
+package test;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class GuGuController {
+	public String gugu(){
+		
+	}
+}

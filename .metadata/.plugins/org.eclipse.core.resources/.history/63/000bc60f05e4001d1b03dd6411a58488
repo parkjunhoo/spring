@@ -1,0 +1,18 @@
+package main;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class MemberController {
+
+	@RequestMapping("/signup")
+	public String signup() {
+		return "main/register";
+	}
+	
+	@RequestMapping("/login")
+	public String signup() {
+		return "main/login";
+	}
+}
