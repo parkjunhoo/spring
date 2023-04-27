@@ -1,4 +1,3 @@
-<%@page import="kr.multicampus.erp.user.EmpDTO"%>
 <%@page import="java.util.ArrayList"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
@@ -9,10 +8,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<%
-		ArrayList<EmpDTO> list = new ArrayList<EmpDTO>();
-	 	list = (ArrayList<EmpDTO>)request.getAttribute("DTOList");	
-	%>
 		<table border="1">
 			<tr>
 				<th>부서코드</th>
@@ -23,35 +18,6 @@
 				<th>포인트</th>
 				<th>등급</th>
 			</tr>
-	<%
-		for(EmpDTO dto : list){%>
-			<tr>
-				<td>
-					<%=dto.getDeptno() %>
-				</td>
-				<td>
-					<%=dto.getName() %>
-				</td>
-				<td>
-					<a href="/serverweb/EmpReadServlet?id=<%=dto.getId()%>">
-						<%=dto.getId() %>
-					</a>
-				</td>
-				<td>
-					<%=dto.getPass() %>
-				</td>
-				<td>
-					<%=dto.getAddr() %>
-				</td>
-				<td>
-					<%=dto.getPoint() %>
-				</td>
-				<td>
-					<%=dto.getGrade() %>
-				</td>
-			</tr>
-		<%}
-	%>
 	</table>
 	
 </body>

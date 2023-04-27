@@ -7,6 +7,8 @@ C:\javaweb\work\springwork\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch
 \firstPro\src\main\java
 C:\javaweb\work\springwork\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1446278970.index
 \springmvc\src\main\java
+C:\javaweb\work\springwork\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3026516792.index
+\springbasic\src\main\java
 C:\javaweb\work\springwork\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3312710050.index
 \springmvc\src\main\java
 C:\javaweb\work\springwork\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2129618029.index
