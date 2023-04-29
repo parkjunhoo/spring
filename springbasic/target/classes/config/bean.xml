@@ -4,9 +4,10 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 	
 	<!-- <bean id="mybean" class="app3.MyBeanStyleA"/> -->
-		<bean id="mybean" class="app3.MyBeanStyleB"/>
+		<bean id="mybean" class="app3.MyBeanStyleB" scope="prototype"/>
 		
 		<bean id="tv1" class="exam01.LgTV"/>
 		<bean id="tv2" class="exam01.SamsungTV"/>
-	
+		
+		<!-- <bean id="account" class="exam02.Account"/> -->
 </beans>

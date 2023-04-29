@@ -25,4 +25,22 @@
     <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.BeanFactory"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.xml.XmlBeanFactory"/>
+    <fullyQualifiedTypeName name="java.applet.AppletContext"/>
+    <fullyQualifiedTypeName name="di.constructor02.AbstractPlayer"/>
+    <fullyQualifiedTypeName name="di.constructor02.AbstractDice"/>
+    <fullyQualifiedTypeName name="di.constructor03.IArticleDAO"/>
+    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="di.constructor03.IWriteArticleMgr"/>
+    <fullyQualifiedTypeName name="di.constructor03.ArticleDTO"/>
+    <fullyQualifiedTypeName name="di.setter02.LogicImpl"/>
+    <fullyQualifiedTypeName name="di.setter02.ServiceImpl"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Qualifier"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="test.ProjectSampleDAO"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+    <fullyQualifiedTypeName name="test.ProjectSampleService"/>
 </qualifiedTypeNameHistroy>

@@ -11,7 +11,10 @@
 	<h1>샘플 페이지</h1>
 	<hr>
 	<h3><a href="/springmvc/gugu.do">7단 출력하기</a></h3>
+	<h3><a href="/springmvc/pro.do">이제?</a></h3>
 	<img src="/springmvc/resources/images/cat.png"/>
-	<script type="text/javascript" src="/springmvc/resources/js/test.js"></script>
+	
+	
+	<!-- <script type="text/javascript" src="/springmvc/resources/js/test.js"></script> -->
 </body>
 </html>

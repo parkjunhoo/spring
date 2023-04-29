@@ -17,5 +17,7 @@ C:\javaweb\work\springwork\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch
 \firstPro\src\main\java
 C:\javaweb\work\springwork\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3373010826.index
 \springmvc\src\main\java
+C:\javaweb\work\springwork\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3162842807.index
+\springdi\src\main\java
 C:\javaweb\work\springwork\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2843213856.index
 \springmvc\src\main\java
