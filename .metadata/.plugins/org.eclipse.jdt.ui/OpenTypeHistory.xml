@@ -2,4 +2,8 @@
 <typeInfoHistroy>
     <typeInfo handle="=springbasic/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;customer{CustomerDAO.java[CustomerDAO" modifiers="513" timestamp="1682570575339"/>
     <typeInfo handle="=springbasic/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;customer{CustomerService.java[CustomerService" modifiers="513" timestamp="1682562886500"/>
+    <typeInfo handle="=springmvc/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;kr.multi.erp.dept{DeptDAO.java[DeptDAO" modifiers="513" timestamp="1683613643188"/>
+    <typeInfo handle="=springmvc/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;kr.multi.erp.dept{DeptService.java[DeptService" modifiers="513" timestamp="1682908880229"/>
+    <typeInfo handle="=springmvc/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;kr.multi.erp.emp{EmpDAO.java[EmpDAO" modifiers="513" timestamp="1682909162550"/>
+    <typeInfo handle="=springmvc/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;kr.multi.erp.emp{EmpService.java[EmpService" modifiers="513" timestamp="1682909162564"/>
 </typeInfoHistroy>

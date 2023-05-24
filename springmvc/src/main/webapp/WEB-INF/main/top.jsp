@@ -1,5 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+    
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -32,17 +34,24 @@
             <li><a href="#">Page 1-3</a></li>
           </ul>
         </li> -->
-        <li><a href="/serverweb/index.jsp">서블릿 basic</a></li>
+        <li><a href="/springmvc/index.jsp">서블릿 basic</a></li>
         <li><a href="#">JSP basic</a></li>
-        <li><a href="#">부서관리</a></li>
-        <li><a href="/serverweb/user/_mvc/list.jsp">인사관리</a></li>
-        <li><a href="/serverweb/board/list.do">게시판</a></li>
+        <li><a href="/springmvc/dept/list.do">부서관리</a></li>
+        <li><a href="/springmvc/user/_mvc/list.jsp">인사관리</a></li>
+        <li><a href="/springmvc/board/list.do">게시판</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="/springmvc/signup"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <c:choose>
+        	<c:when test="${user == null}">
+        		<li><a href="/springmvc/emp/insert"><span class="glyphicon glyphicon-plus"></span> Sign Up</a></li>
+        		<li><a href="/springmvc/login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        	</c:when>
+        	<c:otherwise>
+        		<li><a href="/serverweb/logout.do"><span class="glyphicon glyphicon-log-in"></span> LOGOUT</a></li>
+        	</c:otherwise>
+        </c:choose>
         
-        <li><a href="/springmvc/login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-        <li><a href="/serverweb/logout.do"><span class="glyphicon glyphicon-log-in"></span> LOGOUT</a></li>
+        
       </ul>
     </div>
   </div>
